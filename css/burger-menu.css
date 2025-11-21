@@ -1,0 +1,64 @@
+#content-burger-menu {
+  position: fixed;
+  z-index: 4;
+  background: rgba(0, 0, 0, 0.72);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility 1s, opacity 0.5s;
+}
+#content-burger-menu #burger-block {
+  width: 420px;
+  height: inherit;
+  background: white;
+  color: black;
+  z-index: 2;
+  padding: 40px;
+}
+#content-burger-menu #burger-block a {
+  font-size: 2vh;
+  color: #4A4444;
+  line-height: 4vh;
+}
+#content-burger-menu #burger-block #esc {
+  border-bottom: 2px solid black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+#content-burger-menu #burger-block #esc img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+#content-burger-menu #burger-block #links {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+#content-burger-menu #burger-block #client-navigation-mini {
+  margin-top: 30px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid black;
+  width: 100%;
+}
+#content-burger-menu #burger-block #client-navigation-mini button {
+  padding: 2vh;
+  margin: 15px 30px 10px 30px;
+  font-family: "notoSans", sans-serif;
+  font-size: 2vh;
+  font-weight: 600;
+  color: #ffffff;
+  background: black;
+  border: none;
+  border-radius: 2vh;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=burger-menu.css.map */

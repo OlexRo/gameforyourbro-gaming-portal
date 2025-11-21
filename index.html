@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Стили сайта-->
+    <link rel="stylesheet" href="/css/header-footer.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/burger-menu.css">
+    <link rel="stylesheet" href="/css/user-window.css">
+    <link rel="stylesheet" href="/css/search.css">
+    <!--Фавикон сайта-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <title>GameForYourBro</title>
+</head>
+<body>
+    <!--Контейнер сайта-->
+    <div id="wrapper">
+        <!--Бургер меню сайта-->
+        <div id="content-burger-menu">
+            <div id="burger-block">
+                <div id="esc"><img src="img/icons/arrow.png" alt="esc" title="esc"></div>
+                <div id="links">
+                    <a href="#">Оплата</a>
+                    <a href="#">Доставка</a>
+                    <a href="#">Предзаказ</a>
+                    <a href="#">Контакты</a>
+                </div>
+                <div id="client-navigation-mini">
+                    <button id="user-mini">Войти</button>
+                </div>
+            </div>
+        </div>
+        <!--Вход в личный кабинет-->
+        <div id="modal-window">
+            <div id="user-window-content">
+                <form action="">
+
+                    <div class="block-regist">
+                        <h3>Регистрация</h3>
+                        <button id="esc-two"><img src="img/icons/arrow.png" alt="esc" title="esc"></button>
+                    </div>
+
+                    <div class="block-regist2 ots">
+                        <input type="text" id="login" placeholder=" ">
+                        <label for="login">Введите логин</label>
+                        <span></span>
+                    </div>
+
+                    <div class="block-regist2 ots">
+                        <input type="text" id="password" placeholder=" ">
+                        <label for="password">Введите пароль</label>
+                        <span></span>
+                    </div>
+
+                    <div class="block-regist2 ots">
+                        <input type="text" id="repet-password" placeholder=" ">
+                        <label for="repet-password">Повторите пароль</label>
+                        <span></span>
+                    </div>
+
+                    <div class="block-regist2 ots">
+                        <button>Регистрация </button>
+                        <h5>Зарегистрироваться через</h5>
+                        <img src="/img/icons/vk-black.png" alt="vk" title="vk">
+                        <h5>Войти</h5>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        <!--Шапка сайта-->
+        <header>
+            <button id="burger-menu"><img src="/img/icons/burger-bar.png" alt="menu" title="menu"></button>
+            <!--Логотипы сайта-->
+            <div id="logo-mini"><a href="index.html"><img src="/img/logo/logo-mini.png" alt="logo" title="logo"></a></div>
+            <div id="logo"><a href="index.html"><img src="/img/logo/logo.png" alt="logo" title="logo"></a></div>
+            <nav>
+                <a href="#">Оплата</a>
+                <a href="#">Доставка</a>
+                <a href="#">Предзаказ</a>
+                <a href="#">Контакты</a>
+            </nav>
+            <div id="client-navigation">
+                <button id="search"><img src="/img/icons/search.png" alt="search" title="search">
+                    <!--<input type="text">-->
+                </button>
+                <button id="basket"><img src="/img/icons/basket.png" alt="basket" title="basket"></button>
+                <button id="user"><img src="/img/icons/user.png" alt="user" title="user"></button>
+            </div>
+        </header>
+        <!--Основной контент сайта-->
+        <div id="header"></div>
+        <main>
+            <!--Первая секция Слайдер-->
+            <section>
+                <div id="slider">
+                    <img id="slider-img" src="/img/slider/witcher_slider.jpg" alt="slider-foto">
+                    <div class="slider_button">
+                        <button id="next"><img src="img/icons/arrow-left.png" alt="prev" title="prev"></button>
+                        <button id="prev"><img src="img/icons/arrow-right.png" alt="next" title="next"></button>
+                    </div>
+                </div>
+            </section>
+            <!--Вторая секция Товары-->
+            <section>
+                <div class="block-tovar">
+                    <!--Товар 1-->
+                    <div class="block">
+                        <div class="foto-tovar">
+                            <div class="price">1200 ₽</div>
+                            <div class="img">
+                                <img src="/img/img-witcher/merigold.png" alt="tovar" title="tovar">
+                            </div>
+                        </div>
+                        <button>Фигурка Трисс Меригольд</button>
+                    </div>
+                    <!--Товар 2-->
+                    <div class="block">
+                        <div class="foto-tovar">
+                            <div class="price">1200 ₽</div>
+                            <div class="img">
+                                <img src="/img/img-witcher/shirt-whild-hunt.png" alt="tovar" title="tovar">
+                            </div>
+                        </div>
+                        <button>Футболка Дикаяя Охота</button>
+                    </div>
+                    <!--Товар 3-->
+                    <div class="block">
+                        <div class="foto-tovar">
+                            <div class="price">1200 ₽</div>
+                            <div class="img">
+                                <img src="/img/img-witcher/shirt-witcher.png" alt="tovar" title="tovar">
+                            </div>
+                        </div>
+                        <button>Футболка Ведьмак</button>
+                    </div>
+                    <!--Товар 4-->
+                    <div class="block">
+                        <div class="foto-tovar">
+                            <div class="price">1200 ₽</div>
+                            <div class="img">
+                                <img src="/img/img-witcher/witcher-figur.png" alt="tovar" title="tovar">
+                            </div>
+                        </div>
+                        <button>Фигурка Геральд</button>
+                    </div>
+                    <!--Товар 5-->
+                    <div class="block">
+                        <div class="foto-tovar">
+                            <div class="price">1200 ₽</div>
+                            <div class="img">
+                                <img src="/img/img-witcher/backpack-witcher.png" alt="tovar" title="tovar">
+                            </div>
+                        </div>
+                        <button>Рюкзак Школы Волка</button>
+                    </div>
+                    <!--Товар 6-->
+                    <div class="block">
+                        <div class="foto-tovar">
+                            <div class="price">1200 ₽</div>
+                            <div class="img">
+                                <img src="/img/img-witcher/bear-medalion.png" alt="tovar" title="tovar">
+                            </div>
+                        </div>
+                        <button>Медальон Школы Медведя</button>
+                    </div>
+                    <!--Товар 7-->
+                    <div class="block">
+                        <div class="foto-tovar">
+                            <div class="price">1200 ₽</div>
+                            <div class="img">
+                                <img src="img/img-witcher/hudy-witcher.png" alt="tovar" title="tovar">
+                            </div>
+                        </div>
+                        <button>Кофта Школы Волка</button>
+                    </div>
+                    <!--Товар 8-->
+                    <div class="block">
+                        <div class="foto-tovar">
+                            <div class="price">1200 ₽</div>
+                            <div class="img">
+                                <img src="img/img-witcher/termos-witcher.png" alt="tovar" title="tovar">
+                            </div>
+                        </div>
+                        <button>Термокружка Ведьмака</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!--Подвал сайта-->
+        <footer>
+            <div id="footer-left">
+                <p>
+                    <a href="#">Assassin' Creed</a>
+                    <a href="#">Fallout</a>
+                    <a href="#">Witcher</a>
+                    <a href="#">Far Cry</a>
+                </p>
+                <div id="social">
+                    <img src="/img/icons/vk.png" alt="vk" title="vk">
+                    <img src="/img/icons/youtube.png" alt="youtube" title="youtube">
+                    <img src="/img/icons/whathapp.png" alt="whathapp" title="whathapp">
+                    <img src="/img/logo/logo.png" alt="logo" title="logo">
+                </div>
+                <p>ⓒ 2023, GameALL.com</p>
+            </div>
+            <div id="footer-right">
+                <p>E-mail: ssysysy@gmail.com</p>
+                <p>Время работы службы поддержки 9:00-21:00</p>
+                <p>Доставка по России осуществляется службой доствки: Почта России</p>
+                <p>Доставка за границу осуществляется доставкой: CDEK</p>
+            </div>
+            <script src="js/burger-menu.js"></script>
+            <script src="js/slider.js"></script>
+            <script src="js/user-modal-window.js"></script>
+            <script src="/js/search.js"></script>
+        </footer>
+    </div>
+</body>
+</html>

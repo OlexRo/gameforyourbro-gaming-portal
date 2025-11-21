@@ -1,0 +1,139 @@
+@import url(/css/fonts.sass);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* html, * body {
+  width: 100%;
+  height: 100%;
+  background: #ddd7d7;
+  font-family: "notoSans", sans-serif;
+  font-size: 2vh;
+  font-weight: 600;
+  overflow-x: hidden;
+}
+* html::-webkit-scrollbar, * body::-webkit-scrollbar {
+  display: none;
+}
+* a {
+  text-decoration: none;
+  color: white;
+}
+* #wrapper {
+  width: inherit;
+  height: inherit;
+}
+* #wrapper section {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  width: inherit;
+  height: auto;
+}
+* #wrapper section #slider {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+* #wrapper section #slider img {
+  width: 100%;
+  height: fit-content;
+}
+* #wrapper section #slider .slider_button {
+  width: 90%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+* #wrapper section #slider .slider_button button {
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+* #wrapper section #slider .slider_button button img {
+  width: 40px;
+  height: 40px;
+}
+* #wrapper section .block-tovar {
+  width: 80%;
+  height: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+* #wrapper section .block-tovar .block {
+  width: 250px;
+  height: 550px;
+  display: grid;
+  margin: 5vh;
+}
+@media (max-width: 1220px) {
+  * #wrapper section .block-tovar .block {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+}
+* #wrapper section .block-tovar .block .foto-tovar {
+  display: grid;
+  align-self: center;
+  justify-self: center;
+  grid-row: 1/10;
+  gap: 10px;
+}
+* #wrapper section .block-tovar .block .foto-tovar .img {
+  background: #f1f0f0;
+  box-shadow: 8px 8px 8px 0px rgba(34, 60, 80, 0.2);
+  border-radius: 2vh;
+  width: 300px;
+  height: 450px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+* #wrapper section .block-tovar .block .foto-tovar .img img {
+  transition: 0.6s;
+  width: 250px;
+}
+* #wrapper section .block-tovar .block .foto-tovar .img img:hover {
+  transform: scale(1.03);
+}
+* #wrapper section .block-tovar .block .foto-tovar .price {
+  position: absolute;
+  background: #000000;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border-radius: 100px 55px 100px 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+* #wrapper section .block-tovar .block button {
+  background: #f1f0f0;
+  color: #4A4444;
+  box-shadow: 8px 8px 8px 0px rgba(34, 60, 80, 0.2);
+  height: 5vh;
+  border: none;
+  border-radius: 2vh;
+  font-family: "notoSans", sans-serif;
+  font-size: 2vh;
+  font-weight: 600;
+  transition: 0.6s;
+}
+* #wrapper section .block-tovar .block button:hover {
+  background: rgb(0, 0, 0);
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,104 @@
+.active
+  width: 200px
+
+header
+  z-index: 3
+  width: 100%
+  height: auto
+  background: black
+  color: white
+  display: flex
+  justify-content: space-between
+  padding: 0vh 2vh 0vh 2vh
+  align-items: center
+  justify-items: center
+  position: fixed
+  #burger-menu
+    display: none
+  #logo-mini
+    display: none
+  img
+    width: 30vh
+  #client-navigation
+    display: flex
+    align-items: center
+    justify-content: center
+    margin: 10px
+    img
+      width: 5vh
+    button
+      border: none
+      background: none
+      margin: 10px
+    #search
+      margin: 10px
+      transition: 0.5s ease
+      width: 50px
+      height: 50px
+      border-radius: 100%
+  nav a
+    margin: 10px
+footer
+  width: 100%
+  height: auto
+  background: black
+  color: white
+  display: grid
+  grid-template-columns: repeat(2, 1fr)
+  align-items: center
+  justify-items: center
+  padding: 3vh
+  #footer-left
+    p
+      margin: 2vh 2vh 2vh 0vh
+      a
+        margin: 1vh 1vh 1vh 0vh
+    #social img
+      margin: 2vh 1vh 2vh 0vh
+      width: 3vh
+      &:nth-child(4)
+        width: 14vh
+  #footer-right
+    p
+      margin: 2vh 2vh 2vh 0vh
+      line-height: 4vh
+
+@media (max-width: 1220px)
+  header
+    width: 100%
+    display: flex
+    justify-content: space-between
+    padding: 0vh 2vh 0vh 2vh
+    #burger-menu
+      display: block
+      cursor: pointer
+      background: none
+      border: none
+      img
+        width: 4vh
+    #logo
+      display: none
+    #logo-mini
+      display: block
+    img
+      width: 8vh
+    nav
+      display: none
+    #client-navigation button
+      border: none
+      background: none
+      img
+        width: 4vh
+      &:nth-child(3)
+        display: none
+  footer
+    grid-template-columns: repeat(1, 1fr)
+    padding: 40px
+    font-size: 15px
+    #footer-left
+      margin: 20px
+      text-align: center
+    #footer-right
+      border-top: 2px solid white
+      margin: 20px
+      margin-top: 20px

@@ -1,0 +1,101 @@
+#modal-window {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.72);
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility 1s, opacity 0.5s;
+}
+#modal-window #user-window-content {
+  width: 400px;
+  height: 570px;
+  background: white;
+  border-radius: 2vh;
+  padding: 30px;
+}
+#modal-window #user-window-content form {
+  height: 100%;
+}
+#modal-window #user-window-content form .block-regist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+#modal-window #user-window-content form .block-regist h3 {
+  text-align: center;
+  width: 100%;
+  font-size: 30px;
+}
+#modal-window #user-window-content form .block-regist button {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+#modal-window #user-window-content form .block-regist button img {
+  width: 40px;
+  height: 40px;
+}
+#modal-window #user-window-content form .block-regist2 {
+  padding: 2px 0px 50px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#modal-window #user-window-content form .block-regist2 input {
+  position: absolute;
+  padding: 1.5vh;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  font-size: 20px;
+  border-bottom: 2px solid black;
+  width: 300px;
+}
+#modal-window #user-window-content form .block-regist2 input:focus ~ label, #modal-window #user-window-content form .block-regist2 input:not(:placeholder-shown) ~ label {
+  transform: translateY(-30px);
+  font-size: 15px;
+}
+#modal-window #user-window-content form .block-regist2 label {
+  position: absolute;
+  margin-top: 18px;
+  transition: 0.5s ease;
+  width: 300px;
+  color: #4A4444;
+}
+#modal-window #user-window-content form .block-regist2 button {
+  padding: 1.5vh;
+  font-family: "notoSans", sans-serif;
+  font-size: 2vh;
+  font-weight: 600;
+  color: #ffffff;
+  background: black;
+  border: none;
+  border-radius: 2vh;
+  cursor: pointer;
+}
+#modal-window #user-window-content form .block-regist2 h5 {
+  color: #4A4444;
+  font-size: 16px;
+  margin-top: 15px;
+}
+#modal-window #user-window-content form .block-regist2 img {
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
+}
+#modal-window #user-window-content form .ots {
+  margin-bottom: 35px;
+}
+
+/*# sourceMappingURL=user-window.css.map */

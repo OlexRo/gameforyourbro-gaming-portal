@@ -1,0 +1,120 @@
+@import url(/css/fonts.sass)
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  html, body
+    width: 100%
+    height: 100%
+    background: #ddd7d7
+    font-family: 'notoSans', sans-serif
+    font-size: 2vh
+    font-weight: 600
+    overflow-x: hidden
+    &::-webkit-scrollbar
+      display: none
+  a
+    text-decoration: none
+    color: white
+  #wrapper
+    width: inherit
+    height: inherit
+    section
+      display: grid
+      align-items: center
+      justify-items: center
+      width: inherit
+      height: auto
+      #slider
+        height: fit-content
+        width: 100%
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        img
+          width: 100%
+          height: fit-content
+        .slider_button
+          width: 90%
+          position: absolute
+          display: flex
+          justify-content: space-between
+          button
+            width: 60px
+            height: 60px
+            border: none
+            border-radius: 100%
+            cursor: pointer
+            opacity: 0.8
+            display: flex
+            align-items: center
+            justify-content: center
+            img
+              width: 40px
+              height: 40px
+      .block-tovar
+        width: 80%
+        height: inherit
+        display: flex
+        flex-wrap: wrap
+        align-items: center
+        justify-content: center
+        .block
+          width: 250px
+          height: 550px
+          display: grid
+          margin: 5vh
+          @media (max-width: 1220px)
+            margin-top: 1vh
+            margin-bottom: 1vh
+          .foto-tovar
+            display: grid
+            align-self: center
+            justify-self: center
+            grid-row: 1/10
+            gap: 10px
+            .img
+              background: #f1f0f0
+              box-shadow: 8px 8px 8px 0px rgba(34, 60, 80, 0.2)
+              border-radius: 2vh
+              width: 300px
+              height: 450px
+              display: grid
+              justify-content: center
+              align-content: center
+              img
+                transition: .6s
+                width: 250px
+                &:hover
+                  transform: scale(1.03)
+            .price
+              position: absolute
+              background: #000000
+              color: white
+              width: 100px
+              height: 30px
+              border-radius: 100px 55px 100px 55px
+              display: flex
+              align-items: center
+              justify-content: center
+          button
+            background: #f1f0f0
+            color: #4A4444
+            box-shadow: 8px 8px 8px 0px rgba(34, 60, 80, 0.2)
+            height: 5vh
+            border: none
+            border-radius: 2vh
+            font-family: 'notoSans', sans-serif
+            font-size: 2vh
+            font-weight: 600
+            transition: .6s
+            &:hover
+              background: rgb(0, 0, 0)
+              color: #ffffff
+
+
+
+
+
